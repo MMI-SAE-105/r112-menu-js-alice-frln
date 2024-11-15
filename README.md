@@ -69,7 +69,7 @@ Doit afficher dans la console :
 Maintenant changer à `false` l'attribut `"aria-hidden"` de l'élément référencé par la variable `nav`.
 
 ```js
-nav.aria______ = ____;
+nav.ariaHidden = false;
 ```
 
 La page doit afficher le menu
@@ -79,7 +79,7 @@ La page doit afficher le menu
 Trouvez l'élément de classe CSS `menu-btn` :
 
 ```js
-toggle = ________.__________("________");
+toggle =  ____________.______("____");
 ```
 
 Maintenant changer à `true` l'attribut `"aria-expanded"` de l'élément référencé par la variable `toggle`.
@@ -100,7 +100,7 @@ const toggle = _____________________;
 const nav = ______________________;
 
 // Ajoute un écouteur d'événements à l'élément 'toggle' qui écoute les événements 'click'.
-toggle.____________("______", () => {
+toggle.toggle.addEventListener("click",(evt)=>{
   // Mise à jour des attributs ARIA pour accessibilité
   nav__________________;
   toggle__________________;
