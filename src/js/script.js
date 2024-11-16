@@ -9,4 +9,5 @@ toggle.addEventListener("click", () => {
   const isClosed = !isOpen;
   nav.ariaHidden = isOpen
 toggle.ariaExpanded = isClosed
+console.log("isOpen : ", isOpen, "isClosed : ", isClosed);
 })
